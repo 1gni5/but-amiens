@@ -1,17 +1,21 @@
-﻿# Vous pouvez placer le script de votre jeu dans ce fichier.
+﻿# Personnages
+define ai = Character('@Inf0', color="#c8ffc8")
 
-# Déclarez sous cette ligne les images, avec l'instruction 'image'
-# ex: image eileen heureuse = "eileen_heureuse.png"
-
-# Déclarez les personnages utilisés dans le jeu.
-define e = Character('Eileen', color="#c8ffc8")
-
-
-# Le jeu commence ici
+# Début du jeu
 label start:
+    
+    scene bg hall
+    with fade
 
-    e "Vous venez de créer un nouveau jeu Ren'Py."
+    "IUT d'Amiens, Journée portes ouvertes"
 
-    e "Après avoir ajouté une histoire, des images et de la musique, vous pourrez le présenter au monde entier !"
+    "..."
+    
+    show ai smile at right
 
+    ai "Hello world !"
+    
+    "Bienvenue a la eJPO de l'IUT d'Amiens. Je me présente, je suis @Inf0 et je serais ta guide pour cette visite."
+    
+    # Fin du jeu
     return
