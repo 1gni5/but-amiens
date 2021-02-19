@@ -649,174 +649,6 @@ translate None strings:
     old "Self-voicing enabled. Press 'v' to disable."
     new "Lecture vocale activée. Pressez « v » pour la désactiver."
 
-    # renpy/common/_compat/gamemenu.rpym:198
-    old "Empty Slot."
-    new "Emplacement vide."
-
-    # renpy/common/_compat/gamemenu.rpym:355
-    old "Previous"
-    new "Précédent"
-
-    # renpy/common/_compat/gamemenu.rpym:362
-    old "Next"
-    new "Suivant"
-
-    # renpy/common/_compat/preferences.rpym:428
-    old "Joystick Mapping"
-    new "Mapping du Joystick"
-
-    # renpy/common/_developer/developer.rpym:38
-    old "Developer Menu"
-    new "Menu du développeur"
-
-    # renpy/common/_developer/developer.rpym:43
-    old "Interactive Director (D)"
-    new "Interactive Director (D)"
-
-    # renpy/common/_developer/developer.rpym:45
-    old "Reload Game (Shift+R)"
-    new "Recharger la partie (Maj+R)"
-
-    # renpy/common/_developer/developer.rpym:47
-    old "Console (Shift+O)"
-    new "Console (Maj+O)"
-
-    # renpy/common/_developer/developer.rpym:49
-    old "Variable Viewer"
-    new "Visualisateur de variable"
-
-    # renpy/common/_developer/developer.rpym:51
-    old "Image Location Picker"
-    new "Sélecteur d’emplacement d’images"
-
-    # renpy/common/_developer/developer.rpym:53
-    old "Filename List"
-    new "Liste des noms de fichiers"
-
-    # renpy/common/_developer/developer.rpym:57
-    old "Show Image Load Log (F4)"
-    new "Show Image Load Log (F4)"
-
-    # renpy/common/_developer/developer.rpym:60
-    old "Hide Image Load Log (F4)"
-    new "Hide Image Load Log (F4)"
-
-    # renpy/common/_developer/developer.rpym:63
-    old "Image Attributes"
-    new "Image Attributes"
-
-    # renpy/common/_developer/developer.rpym:90
-    old "[name] [attributes] (hidden)"
-    new "[name] [attributes] (hidden)"
-
-    # renpy/common/_developer/developer.rpym:94
-    old "[name] [attributes]"
-    new "[name] [attributes]"
-
-    # renpy/common/_developer/developer.rpym:143
-    old "Nothing to inspect."
-    new "Rien à inspecter."
-
-    # renpy/common/_developer/developer.rpym:154
-    old "Hide deleted"
-    new "Hide deleted"
-
-    # renpy/common/_developer/developer.rpym:154
-    old "Show deleted"
-    new "Show deleted"
-
-    # renpy/common/_developer/developer.rpym:278
-    old "Return to the developer menu"
-    new "Retourner au menu du développeur"
-
-    # renpy/common/_developer/developer.rpym:443
-    old "Rectangle: %r"
-    new "Rectangle: %r"
-
-    # renpy/common/_developer/developer.rpym:448
-    old "Mouse position: %r"
-    new "Mouse position: %r"
-
-    # renpy/common/_developer/developer.rpym:453
-    old "Right-click or escape to quit."
-    new "Clic droit ou « Echap » pour quitter."
-
-    # renpy/common/_developer/developer.rpym:485
-    old "Rectangle copied to clipboard."
-    new "Rectangle copié dans le presse-papier."
-
-    # renpy/common/_developer/developer.rpym:488
-    old "Position copied to clipboard."
-    new "Position copiée dans le presse-papier."
-
-    # renpy/common/_developer/developer.rpym:506
-    old "Type to filter: "
-    new "Type to filter: "
-
-    # renpy/common/_developer/developer.rpym:631
-    old "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
-    new "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
-
-    # renpy/common/_developer/developer.rpym:635
-    old "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
-    new "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
-
-    # renpy/common/_developer/developer.rpym:645
-    old "✔ "
-    new "✔ "
-
-    # renpy/common/_developer/developer.rpym:648
-    old "✘ "
-    new "✘ "
-
-    # renpy/common/_developer/developer.rpym:653
-    old "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}"
-    new "\n{color=#cfc}✔ image prédite (bon){/color}\n{color=#fcc}✘ image prédite (mauvais){/color}\n{color=#fff}Glissez pour bouger.{/color}"
-
-    # renpy/common/_developer/inspector.rpym:38
-    old "Displayable Inspector"
-    new "Inspecteur affichable"
-
-    # renpy/common/_developer/inspector.rpym:61
-    old "Size"
-    new "Taille"
-
-    # renpy/common/_developer/inspector.rpym:65
-    old "Style"
-    new "Style"
-
-    # renpy/common/_developer/inspector.rpym:71
-    old "Location"
-    new "Localisation"
-
-    # renpy/common/_developer/inspector.rpym:122
-    old "Inspecting Styles of [displayable_name!q]"
-    new "Inspection des styles de [displayable_name!q]"
-
-    # renpy/common/_developer/inspector.rpym:139
-    old "displayable:"
-    new "affichable:"
-
-    # renpy/common/_developer/inspector.rpym:145
-    old "        (no properties affect the displayable)"
-    new "        (Aucune propriété n’affecte l’affichage)"
-
-    # renpy/common/_developer/inspector.rpym:147
-    old "        (default properties omitted)"
-    new "        (Propriétés par défaut omises)"
-
-    # renpy/common/_developer/inspector.rpym:185
-    old "<repr() failed>"
-    new "<repr() échoué>"
-
-    # renpy/common/_layout/classic_load_save.rpym:170
-    old "a"
-    new "a"
-
-    # renpy/common/_layout/classic_load_save.rpym:179
-    old "q"
-    new "q"
-
     # renpy/common/00iap.rpy:219
     old "Contacting App Store\nPlease Wait..."
     new "Connexion à l’Apple Store.\nVeuillez patienter…"
@@ -1164,6 +996,150 @@ translate None strings:
     # renpy/common/_errorhandling.rpym:693
     old "Copies the errors.txt file to the clipboard as Markdown for Discord."
     new "Copie le fichier errors.txt dans le presse-papier au format Markdown pour Discord."
+
+    # renpy/common/_developer/developer.rpym:38
+    old "Developer Menu"
+    new "Menu du développeur"
+
+    # renpy/common/_developer/developer.rpym:43
+    old "Interactive Director (D)"
+    new "Interactive Director (D)"
+
+    # renpy/common/_developer/developer.rpym:45
+    old "Reload Game (Shift+R)"
+    new "Recharger la partie (Maj+R)"
+
+    # renpy/common/_developer/developer.rpym:47
+    old "Console (Shift+O)"
+    new "Console (Maj+O)"
+
+    # renpy/common/_developer/developer.rpym:49
+    old "Variable Viewer"
+    new "Visualisateur de variable"
+
+    # renpy/common/_developer/developer.rpym:51
+    old "Image Location Picker"
+    new "Sélecteur d’emplacement d’images"
+
+    # renpy/common/_developer/developer.rpym:53
+    old "Filename List"
+    new "Liste des noms de fichiers"
+
+    # renpy/common/_developer/developer.rpym:57
+    old "Show Image Load Log (F4)"
+    new "Show Image Load Log (F4)"
+
+    # renpy/common/_developer/developer.rpym:60
+    old "Hide Image Load Log (F4)"
+    new "Hide Image Load Log (F4)"
+
+    # renpy/common/_developer/developer.rpym:63
+    old "Image Attributes"
+    new "Image Attributes"
+
+    # renpy/common/_developer/developer.rpym:90
+    old "[name] [attributes] (hidden)"
+    new "[name] [attributes] (hidden)"
+
+    # renpy/common/_developer/developer.rpym:94
+    old "[name] [attributes]"
+    new "[name] [attributes]"
+
+    # renpy/common/_developer/developer.rpym:143
+    old "Nothing to inspect."
+    new "Rien à inspecter."
+
+    # renpy/common/_developer/developer.rpym:154
+    old "Hide deleted"
+    new "Hide deleted"
+
+    # renpy/common/_developer/developer.rpym:154
+    old "Show deleted"
+    new "Show deleted"
+
+    # renpy/common/_developer/developer.rpym:278
+    old "Return to the developer menu"
+    new "Retourner au menu du développeur"
+
+    # renpy/common/_developer/developer.rpym:443
+    old "Rectangle: %r"
+    new "Rectangle: %r"
+
+    # renpy/common/_developer/developer.rpym:448
+    old "Mouse position: %r"
+    new "Mouse position: %r"
+
+    # renpy/common/_developer/developer.rpym:453
+    old "Right-click or escape to quit."
+    new "Clic droit ou « Echap » pour quitter."
+
+    # renpy/common/_developer/developer.rpym:485
+    old "Rectangle copied to clipboard."
+    new "Rectangle copié dans le presse-papier."
+
+    # renpy/common/_developer/developer.rpym:488
+    old "Position copied to clipboard."
+    new "Position copiée dans le presse-papier."
+
+    # renpy/common/_developer/developer.rpym:506
+    old "Type to filter: "
+    new "Type to filter: "
+
+    # renpy/common/_developer/developer.rpym:631
+    old "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
+    new "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
+
+    # renpy/common/_developer/developer.rpym:635
+    old "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
+    new "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
+
+    # renpy/common/_developer/developer.rpym:645
+    old "✔ "
+    new "✔ "
+
+    # renpy/common/_developer/developer.rpym:648
+    old "✘ "
+    new "✘ "
+
+    # renpy/common/_developer/developer.rpym:653
+    old "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}"
+    new "\n{color=#cfc}✔ image prédite (bon){/color}\n{color=#fcc}✘ image prédite (mauvais){/color}\n{color=#fff}Glissez pour bouger.{/color}"
+
+    # renpy/common/_developer/inspector.rpym:38
+    old "Displayable Inspector"
+    new "Inspecteur affichable"
+
+    # renpy/common/_developer/inspector.rpym:61
+    old "Size"
+    new "Taille"
+
+    # renpy/common/_developer/inspector.rpym:65
+    old "Style"
+    new "Style"
+
+    # renpy/common/_developer/inspector.rpym:71
+    old "Location"
+    new "Localisation"
+
+    # renpy/common/_developer/inspector.rpym:122
+    old "Inspecting Styles of [displayable_name!q]"
+    new "Inspection des styles de [displayable_name!q]"
+
+    # renpy/common/_developer/inspector.rpym:139
+    old "displayable:"
+    new "affichable:"
+
+    # renpy/common/_developer/inspector.rpym:145
+    old "        (no properties affect the displayable)"
+    new "        (Aucune propriété n’affecte l’affichage)"
+
+    # renpy/common/_developer/inspector.rpym:147
+    old "        (default properties omitted)"
+    new "        (Propriétés par défaut omises)"
+
+    # renpy/common/_developer/inspector.rpym:185
+    old "<repr() failed>"
+    new "<repr() échoué>"
 
     # renpy/common/00console.rpy:492
     old "Press <esc> to exit console. Type help for help.\n"

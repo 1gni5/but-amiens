@@ -24,7 +24,7 @@ init python:
 
 ## Une couleur utilisée dans l’interface pour mettre l’accent sur un texte
 ## (surbrillance).
-define gui.accent_color = u'#003366'
+define gui.accent_color = u'#0099ff'
 
 ## La couleur utilisée pour le texte d’un bouton quand il n’a jamais été
 ## sélectionné ou survolé.
@@ -35,7 +35,7 @@ define gui.idle_color = u'#aaaaaa'
 define gui.idle_small_color = u'#888888'
 
 ## Cette couleur est utilisée pour les boutons et les barres qui sont survolées.
-define gui.hover_color = u'#003366'
+define gui.hover_color = u'#0099ff'
 
 ## Cette couleur est utilisé pour le texte d’un bouton sélectionné, mais qui n’a
 ## pas le focus. Un bouton est sélectionné s’il est sur l’écran actuel ou si
@@ -49,8 +49,8 @@ define gui.insensitive_color = u'#aaaaaa7f'
 ## Couleurs utilisées pour les portions de barres qui ne sont pas remplies.
 ## Elles ne sont pas utilisées directement, mais quand les fichiers d’images
 ## sont régénérés.
-define gui.muted_color = u'#6684a3'
-define gui.hover_muted_color = u'#99adc1'
+define gui.muted_color = u'#66c1ff'
+define gui.hover_muted_color = u'#99d6ff'
 
 ## Les couleurs utilisées pour les dialogues et les menus de choix.
 define gui.text_color = u'#404040'

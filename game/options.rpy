@@ -15,7 +15,7 @@
 ##
 ## La chaîne de caractère contenu dans _() est éligible à la traduction.
 
-define config.name = _("BUTAmiens")
+define config.name = _("BUT Amiens")
 
 
 ## Détermine si le titre renseigné plus haut est affiché sur l'écran du menu
@@ -149,7 +149,7 @@ default preferences.afm_time = 15
 ## Cela ne devrait généralement pas changer. Si vous le faîtes, choisissez
 ## toujours une chaîne de caractères littéraux, pas une expression.
 
-define config.save_directory = "BUTAmiens-1612433215"
+define config.save_directory = "BUTAmiens-1613730014"
 
 
 ## Icon ########################################################################
