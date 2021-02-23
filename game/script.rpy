@@ -93,5 +93,36 @@ label start:
 
     show ai normal
     ai "Même si avoir des connaissances en informatique peut t'aider, ce n'est pas requis. Le BUT a pour ambition de former tout ceux qui le veulent, qu'ils aient déjà fait de l'informatique ou non!"
+
+    # Comment travaille-t-on en BUT ?
+    ai "De plus la formation offre bien assez d'heures de pratique pour que tout étudiant un minimum sérieux ressorte avec un bon bagage."
+
+    ai "Que ce soit lors des projets sur lesquels les étudiants travaillent en groupe ou lors des stages en entreprise, un élève de BUT ça code !"
+
+    player "..."
+
+    # Nombre d'heure en entreprise
+    ai "C'est une bonne question, à ton avis combien de temps un étudiants de BUT passe en entreprise ?"
+
+    menu:
+        ai "Combien de temps passe un étudiant de BUT en entreprise ?"
+
+        "0 semaine, pourquoi faire ?"
+            show ai surprised
+            ai "Tu te moques de moi c'est ça ?"
+        "10 à 12 semaines"
+            show ai giggle
+            ai "Pas loin ! En DUT (ancien BUT) c'était effectivement le temps que passer un étudiant en stage."
+        "26 semaines": 
+            show ai smile
+            ai "C'est exact !"
+
+        show ai normal
+        ai "Durant son BUT un étudiant passe 26 semaines en entreprise. C'est un des avantages du BUT, cela permet aux étudiants de ressortir avec un diplôme et de l'expérience professionelle."
+
+    # Poursuite d'étude
+
+
+
     # Fin du jeu
     return
