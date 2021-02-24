@@ -8,3 +8,4 @@
 - [X] Faut-il savoir coder pour entrer en BUT Informatique ?
 - [ ] Qu'est-ce que je peux faire après ?
 - [X] Comment travaille-t-on en BUT ?
+- [X] Comment est-on évalué ?

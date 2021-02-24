@@ -109,29 +109,46 @@ label start:
 
         "0 semaine, pourquoi faire ?":
             show ai surprised
-            ai "Tu te moques de moi c'est ça ?": 
-        "10 à 12 semaines": 
+            ai "Tu te moques de moi c'est ça ?"
+        "10 à 12 semaines":
             show ai giggle
             ai "Pas loin ! En DUT (ancien BUT) c'était effectivement le temps que passer un étudiant en stage."
-        "26 semaines": 
+        "26 semaines":
             show ai smile
             ai "C'est exact !"
 
-        show ai normal
-        ai "Durant son BUT un étudiant passe 26 semaines en entreprise. C'est un des avantages du BUT, cela permet aux étudiants de ressortir avec un diplôme et de l'expérience professionelle."
+    show ai normal
+    ai "Durant son BUT un étudiant passe 26 semaines en entreprise. C'est un des avantages du BUT, cela permet aux étudiants de ressortir avec un diplôme et de l'expérience professionelle."
 
     show ai giggle
     ai "Je suis désolé, je parle je parle et j'oublie de te faire visiter l'IUT. Allons-y !"
+
+    scene bg examen
+    show ai normal at left
+    ai "Voici la salle d'examen, elle peut paraître intimidante, mais c'est le meilleur moyen d'examiner sur papier une centaine d'élèves avec un minimum de risque de triche."
+
+    menu:
+        ai "D'ailleurs, penses-tu que tous tes contrôles seront sur papier?"
+
+        "Oui":
+            ai "Et bien non!"
+        "Non":
+            ai "Correct!"
+
+    ai "Tu seras surtout évalué sur des projets. Après tout, cela vaut mieux d'être évalué sur ton travail plutôt que sur des examens où tu révises pour oublier juste après!"
+    player "..."
+    ai "Euh... Enfin bref! Retournons au rez-de-chausée."
+
 
     scene bg bibliotheque
     show ai normal at right
 
     ai "Nous voici à la bibliothèque de l'IUT. Si tu es au lycée c'est un peu notre CDI à nous, tu peux emprunter toute sorte de livres, venir travailler sur table ou sur ordinateur. C'est un de mes endroit préféré !"
     ai "Tient tant que je te parle de lycée, à ton avis, quel bac faut-il pour entrer en BUT Informatique ?"
-    # Quel BAC pour entrer en BUT ? 
+    # Quel BAC pour entrer en BUT ?
     menu:
         ai "Quel BAC pour entrer en BUT Informatique ?"
-        
+
         "Un BAC hybride !":
             show ai giggle
             ai "Mais pas que !"
