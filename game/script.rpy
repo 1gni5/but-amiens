@@ -139,6 +139,18 @@ label start:
     player "..."
     ai "Euh... Enfin bref! Retournons au rez-de-chausée."
 
+    scene bg BDE
+    show ai normal at right
+
+    ai "Cette pièce est censée être celle du Bureau des Etudiants..."
+    ai "Mais avec le COVID, elle est restée fermée depuis un moment."
+    ai "C'était une salle de repos entre étudiants pendant les heures de creux."
+    ai "L'association des étudiants est gérée par certains étudiants eux-mêmes! Et oui!"
+    ai "Devenir adhérent permet d'obetenir des réductions sur des articles, comme le snacking ou les vetêments brodés au sigle du BDE. \"Codito ergo sum!\""
+    player "..."
+
+    show ai surprised at right
+    ai "Bon, continuons notre visite. Allons dehors, à côté du nouvel amphithéâtre."
 
     scene bg bibliotheque
     show ai normal at right
