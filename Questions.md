@@ -6,6 +6,6 @@
 - [ ] Quels sont les différents parcours possible ?
 - [X] Que fait-on en BUT ? (Que de l'info => Non)
 - [X] Faut-il savoir coder pour entrer en BUT Informatique ?
-- [ ] Qu'est-ce que je peux faire après ?
+- [ ] Qu'est-ce que je peux faire après ? [À voir pour BUT]
 - [X] Comment travaille-t-on en BUT ?
 - [X] Comment est-on évalué ?
