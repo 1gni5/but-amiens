@@ -205,5 +205,25 @@ label start:
 
     ai "En effet à l'IUT tu seras formé par des professeurs mais également par des personnes qui travaillent aussi dans des entreprises. C'est encore une force du BUT, grâce aux vacataires la formation reste proche du monde réel et de ses besoins."
 
+    ai "Et ce n'est pas le seul avantage du BUT! A partir de la 3ème année, tu pourras choisir un parcours qui t'aiguillera vers une partie informatique qui t'intéresse plus que le reste."
+
+    #NB de parcours
+
+    menu:
+        ai "D'après toi, combien y a-t-il de parcours différents ?"
+        "2":
+            ai "Et non!"
+        "4":
+            ai "C'est ça!"
+        "Autant qu'il y a d'étudiants":
+            show ai surprised
+            ai "Pas quand même!"
+
+    show ai normal
+
+    ai "En effet, tu auras le choix entre 4 parcours différents en fonction de tes préférences. Mais pas de panique, tu auras le temps de choisir!"
+    ai "Le premier est la réalisation d'applications. Il existe un autre sur l'administration et la sécurisation de bases de données, un autre sur le déploiement d'applications communicantes et un autre sur le management de système d'informations."
+    ai "Ca peut paraître compliqué à comprendre pour l'instant, mais ce n'est pas grave!"
+
     # Fin du jeu
     return

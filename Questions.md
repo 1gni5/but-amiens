@@ -3,7 +3,7 @@
 - [X] Quelle est volume horaire passé en entreprise pour un étudiant de BUT ?
 - [X] Qui enseigne au DUT ?
 - [X] Après quel BAC peut-on intégrer un DUT ?
-- [ ] Quels sont les différents parcours possible ?
+- [X] Quels sont les différents parcours possible ?
 - [X] Que fait-on en BUT ? (Que de l'info => Non)
 - [X] Faut-il savoir coder pour entrer en BUT Informatique ?
 - [ ] Qu'est-ce que je peux faire après ? [À voir pour BUT]
