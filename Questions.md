@@ -1,7 +1,7 @@
 # Quizz - Questions
 - [ ] Combien de temps dure la formation de BUT ? [A REVOIR]
 - [X] Quelle est volume horaire passé en entreprise pour un étudiant de BUT ?
-- [ ] Qui enseigne au DUT ?
+- [X] Qui enseigne au DUT ?
 - [X] Après quel BAC peut-on intégrer un DUT ?
 - [ ] Quels sont les différents parcours possible ?
 - [X] Que fait-on en BUT ? (Que de l'info => Non)
