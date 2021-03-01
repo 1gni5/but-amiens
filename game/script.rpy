@@ -157,6 +157,7 @@ label start:
 
     ai "Nous voici à la bibliothèque de l'IUT. Si tu es au lycée c'est un peu notre CDI à nous, tu peux emprunter toute sorte de livres, venir travailler sur table ou sur ordinateur. C'est un de mes endroit préféré !"
     ai "Tient tant que je te parle de lycée, à ton avis, quel bac faut-il pour entrer en BUT Informatique ?"
+
     # Quel BAC pour entrer en BUT ?
     menu:
         ai "Quel BAC pour entrer en BUT Informatique ?"
@@ -172,8 +173,37 @@ label start:
             ai "Exact !"
 
     ai "Il est possible d’intégrer un B.U.T après l’obtention du bac, qu’il soit technologique ou « hybride ». Mais attention il faut avoir correctement rempli ses choix sur Parcoursup !"
+    ai "Super, pour la suite de la visite nous allons revenir dans le bâtiments principal."
+    
+    # Qui enseigne en BUT ?
+    scene bg tps
+    show ai normal
 
+    ai "À l'étage en plus des salles de TPs tu trouveras la salle des profs, le secrétariat ainsi que le bureau du directeur du département informatique: M. Clérentin. (il adore UNIX)"
+    # ai "C'est d'ailleur beaucoup mieux depuis qu'il est revenu, les gamins qui se font la gue-guerre parce qu'ils ont 0 autorité ça va bien 2 secondes !"
 
+    player "..."
+
+    ai "Les autres portes avec des noms ?"
+    ai "Ce sont les bureaux des professeur de l'IUT. Si jamais tu dois parler à l'un d'entre eux c'est une bonne idée d'aller tocquer à son bureau."
+    ai "En parlant de professeur... Qui enseigne à l'IUT ?"
+
+    menu:
+        ai "Qui enseigne à l'IUT ?"
+
+        "Des professeurs" :
+            show ai giggle
+            ai "Oui mais ce ne sont pas les seuls !"
+
+        "Des vacataires" : 
+            show ai giggle
+            ai "Oui mais ce ne sont pas les seuls !"
+
+        "Les deux !" :
+            show ai smile 
+            ai "C'est une bonne réponse !"
+
+    ai "En effet à l'IUT tu seras formé par des professeurs mais également par des vacataires. C'est encore une force du BUT, grâce au vacataire la formation reste proche du monde réels et de ses besoins."
 
     # Fin du jeu
     return
