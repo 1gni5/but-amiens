@@ -225,5 +225,22 @@ label start:
     ai "Le premier est la réalisation d'applications. Il existe un autre sur l'administration et la sécurisation de bases de données, un autre sur le déploiement d'applications communicantes et un autre sur le management de système d'informations."
     ai "Ca peut paraître compliqué à comprendre pour l'instant, mais ce n'est pas grave!"
 
+
+    #Orientations possibles
+
+    ai "Le BUT est un dîplome d'enseignement supérieur qui te permettras de trouver du travail ensuite, tu pourras postuler à des offres d'emploi de niveau BAC+3. Dans n'importe quelle entreprise avec un service informatique et avec un niveau correct"
+    ai "cela te sera assez facile, car comme aime nous dire notre directeur M.Clerentin \"Nous sommes en pénurie d'informaticiens\""
+
+    menu:
+        ai "Mais à ton avis est-il possible de continuer de te former plus spécifiquement après un BUT informatique ?"
+        "Oui":
+            ai "Absolument"
+        "Non":
+            ai "Et bien si"
+
+    ai "Après ton BUT, si tu souhaites continuer tes études, tu pourras t'orienter dans une licence parcours MIAGE, ou encore dans une licence professionnelle option métiers de l'informatique où tu choisiras une spécialité :"
+    ai "conception et développement de logiciels ; administration et sécurité des systèmes et réseaux ; applications web et encore bien d'autres. Avec un bon niveau tu pourrais aussi intégrer une école d’ingénieur."
+
+
     # Fin du jeu
     return
