@@ -139,7 +139,7 @@ label start:
     player "..."
     ai "Euh... Enfin bref! Retournons au rez-de-chausée."
 
-    scene bg BDE
+    scene bg bde
     show ai normal at right
 
     ai "Cette pièce est censée être celle du Bureau des Etudiants..."
