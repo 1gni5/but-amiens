@@ -61,9 +61,12 @@ label start:
 
     # Présentation des TDs et TPs
     scene bg tds
-    show ai normal at right
+    show ai normal at left
 
     ai "Voilà les salles de TD, c'est ici que tu travailleras lors des \"Travaux dirigés\", ce que tu auras appris en CM sera à mettre en pratique ici."
+
+    scene bg tdina
+    show ai normal at left
 
     ai "Enfin, tu pourras mettre en pratique les matières générales pour les matières informatiques que tu pratiqueras plutôt à l'étage dans les salles de TPs. Mais plutôt qu'une longue explication, je vais te montrer !"
 
@@ -176,7 +179,7 @@ label start:
     ai "Super, pour la suite de la visite nous allons revenir dans le bâtiment principal."
 
     # Qui enseigne en BUT ?
-    scene bg tps
+    scene bg corridor
     show ai normal
 
     ai "À l'étage en plus des salles de TPs tu trouveras la salle des profs, le secrétariat ainsi que le bureau du directeur du département informatique: M. Clérentin. (il adore UNIX)"
@@ -228,18 +231,18 @@ label start:
 
     #Orientations possibles
 
-    ai "Le BUT est un dîplome d'enseignement supérieur qui te permettras de trouver du travail ensuite, tu pourras postuler à des offres d'emploi de niveau BAC+3. Dans n'importe quelle entreprise avec un service informatique et avec un niveau correct"
-    ai "cela te sera assez facile, car comme aime nous dire notre directeur M.Clerentin \"Nous sommes en pénurie d'informaticiens\""
+    ai "Le BUT est un dîplome d'enseignement supérieur qui te permettras de trouver du travail par la suite. Tu pourras postuler à des offres d'emploi de niveau BAC+3 dans n'importe quelle entreprise avec un service informatique et un niveau correct"
+    ai "Cela te sera assez facile, car comme aime nous dire notre directeur M.Clerentin \"Nous sommes en pénurie d'informaticiens.\" !"
 
     menu:
-        ai "Mais à ton avis est-il possible de continuer de te former plus spécifiquement après un BUT informatique ?"
+        ai "Mais à ton avis, est-il possible de continuer de te former plus spécifiquement après un BUT informatique ?"
         "Oui":
-            ai "Absolument"
+            ai "Absolument!"
         "Non":
-            ai "Et bien si"
+            ai "Et bien si!"
 
-    ai "Après ton BUT, si tu souhaites continuer tes études, tu pourras t'orienter dans une licence parcours MIAGE, ou encore dans une licence professionnelle option métiers de l'informatique où tu choisiras une spécialité :"
-    ai "conception et développement de logiciels ; administration et sécurité des systèmes et réseaux ; applications web et encore bien d'autres. Avec un bon niveau tu pourrais aussi intégrer une école d’ingénieur."
+    ai "Après ton BUT, si tu souhaites continuer tes études, tu pourras t'orienter dans une licence parcours MIAGE, ou encore dans une licence professionnelle option métiers de l'informatique où tu choisireras une spécialité :"
+    ai "Conception et développement de logiciels ; administration et sécurité des systèmes et réseaux ; applications web et encore bien d'autres. Avec un bon niveau tu pourrais aussi intégrer une école d’ingénieur."
 
 
     # Fin du jeu
