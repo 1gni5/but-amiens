@@ -1,5 +1,5 @@
 ﻿# Personnages
-define ai = Character('@Inf0', color="#08ff08")
+define ai = Character('@Inf0', color="#08aa08")
 define player = Character('Joueur', color="#764a2f")
 
 # Début du jeu
