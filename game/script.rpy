@@ -5,21 +5,20 @@ define player = Character('Joueur', color="#764a2f")
 # Début du jeu
 label start:
 
-    scene bg hall
+    scene bg outside
     with fade
 
     "IUT d'Amiens, Journée portes ouvertes"
 
-    "..."
+    scene bg hall
 
-    show ai smile at right
-
+    show ai smile
     ai "Hello world !"
 
+    show ai normal
     ai "Bienvenue a la eJPO de l'IUT d'Amiens. Je me présente, je suis @Inf0 et je serai ta guide pour cette visite."
 
-    scene bg outside
-
+    show ai giggle
     ai "D'ailleurs tant que j'y pense ! As-tu une idée de ce qu'on fait en BUT Informatique ?"
 
     # Que fait-on en BUT Informatique ?
@@ -36,7 +35,7 @@ label start:
             show ai surprised
             ai "Nan mais ! Bien sûr qu'il faut travailler !"
 
-    show ai normal at right
+    show ai normal
     ai "Le BUT Informatique propose une formation complète. Il regroupe autant les matières informatiques que des matières générales comme la communication, les mathématiques ou l'anglais !"
 
     "Bien, continuons !"
@@ -57,16 +56,14 @@ label start:
 
     ai "C'est souvent dans ce genre de cours que tu découvriras de nouveaux concepts, alors même si c'est impressionnant il ne faut pas hésiter à poser des questions qand le professeur t'y invitera."
 
+    show ai smile at left
     ai "Bien, continuons notre visite !"
 
     # Présentation des TDs et TPs
     scene bg tds
-    show ai normal at left
 
+    show ai normal at right
     ai "Voilà les salles de TD, c'est ici que tu travailleras lors des \"Travaux dirigés\", ce que tu auras appris en CM sera à mettre en pratique ici."
-
-    scene bg tdina
-    show ai normal at left
 
     ai "Enfin, tu pourras mettre en pratique les matières générales pour les matières informatiques que tu pratiqueras plutôt à l'étage dans les salles de TPs. Mais plutôt qu'une longue explication, je vais te montrer !"
 
@@ -77,9 +74,10 @@ label start:
 
     show ai giggle
     ai "C'est une grande force du BUT : plutôt que de long cours de théorie, ici on pratique ! Mais attention, ça ne veux pas dire qu'il faut déjà savoir coder pour intégrer un BUT Informatique."
-    show ai normal
 
     # Faut-il savoir coder pour entrer en BUT Informatique ?
+
+    show ai normal
     ai "D'ailleurs à quel point faut-il savoir coder pour intégrer le BUT, à ton avis ?"
 
     menu:
@@ -98,8 +96,10 @@ label start:
     ai "Même si avoir des connaissances en informatique peut t'aider, ce n'est pas requis. Le BUT a pour ambition de former tout ceux qui le veulent, qu'ils aient déjà fait de l'informatique ou non!"
 
     # Comment travaille-t-on en BUT ?
+    show ai normal
     ai "De plus, la formation offre bien assez d'heures de pratique pour que tout étudiant un minimum sérieux ressorte avec un bon bagage."
 
+    show ai smile
     ai "Que ce soit lors des projets sur lesquels les étudiants travaillent en groupe ou lors des stages en entreprise, un élève de BUT ça code !"
 
     player "..."
@@ -134,13 +134,15 @@ label start:
         ai "D'ailleurs, penses-tu que tous tes contrôles seront sur papier?"
 
         "Oui":
+            show ai giggle
             ai "Et bien non!"
         "Non":
+            show ai giggle
             ai "Correct!"
 
+    show ai smile
     ai "Tu seras surtout évalué sur des projets. Après tout, cela vaut mieux d'être évalué sur ton travail plutôt que sur des examens où tu révises pour oublier juste après!"
-    player "..."
-    ai "Euh... Enfin bref! Retournons au rez-de-chausée."
+    ai "Bien retournons au rez-de-chausée maintenant !"
 
     scene bg bde
     show ai normal at right
@@ -166,20 +168,20 @@ label start:
         ai "Quel BAC pour entrer en BUT Informatique ?"
 
         "Un BAC hybride !":
-            show ai giggle
+            show ai giggle at right
             ai "Mais pas que !"
         "Un BAC technologique !":
-            show ai giggle
+            show ai giggle at right
             ai "Mais pas que !"
         "Les deux ?":
-            show ai smile
+            show ai smile at right
             ai "Exact !"
 
     ai "Il est possible d’intégrer un B.U.T après l’obtention du bac, qu’il soit technologique ou « hybride ». Mais attention il faut avoir correctement rempli ses choix sur Parcoursup !"
     ai "Super, pour la suite de la visite nous allons revenir dans le bâtiment principal."
 
     # Qui enseigne en BUT ?
-    scene bg corridor
+    scene bg tps
     show ai normal
 
     ai "À l'étage en plus des salles de TPs tu trouveras la salle des profs, le secrétariat ainsi que le bureau du directeur du département informatique: M. Clérentin. (il adore UNIX)"
@@ -206,17 +208,22 @@ label start:
             show ai smile
             ai "C'est une bonne réponse !"
 
+    show ai normal
     ai "En effet à l'IUT tu seras formé par des professeurs mais également par des personnes qui travaillent aussi dans des entreprises. C'est encore une force du BUT, grâce aux vacataires la formation reste proche du monde réel et de ses besoins."
 
+    show ai smile
     ai "Et ce n'est pas le seul avantage du BUT! A partir de la 3ème année, tu pourras choisir un parcours qui t'aiguillera vers une partie informatique qui t'intéresse plus que le reste."
+
 
     #NB de parcours
 
     menu:
         ai "D'après toi, combien y a-t-il de parcours différents ?"
         "2":
+            show ai giggle
             ai "Et non!"
         "4":
+            show ai giggle
             ai "C'est ça!"
         "Autant qu'il y a d'étudiants":
             show ai surprised
@@ -226,11 +233,14 @@ label start:
 
     ai "En effet, tu auras le choix entre 4 parcours différents en fonction de tes préférences. Mais pas de panique, tu auras le temps de choisir!"
     ai "Le premier est la réalisation d'applications. Il existe un autre sur l'administration et la sécurisation de bases de données, un autre sur le déploiement d'applications communicantes et un autre sur le management de système d'informations."
-    ai "Ca peut paraître compliqué à comprendre pour l'instant, mais ce n'est pas grave!"
+
+    show ai smile
+    ai "Ca peut paraître compliqué à comprendre pour l'instant, mais ce n'est pas grave tu as le temps !"
 
 
     #Orientations possibles
 
+    show ai normal
     ai "Le BUT est un dîplome d'enseignement supérieur qui te permettras de trouver du travail par la suite. Tu pourras postuler à des offres d'emploi de niveau BAC+3 dans n'importe quelle entreprise avec un service informatique et un niveau correct"
     ai "Cela te sera assez facile, car comme aime nous dire notre directeur M.Clerentin \"Nous sommes en pénurie d'informaticiens.\" !"
 
@@ -239,8 +249,10 @@ label start:
         "Oui":
             ai "Absolument!"
         "Non":
+            show ai giggle
             ai "Et bien si!"
 
+    show ai normal
     ai "Après ton BUT, si tu souhaites continuer tes études, tu pourras t'orienter dans une licence parcours MIAGE, ou encore dans une licence professionnelle option métiers de l'informatique où tu choisireras une spécialité :"
     ai "Conception et développement de logiciels ; administration et sécurité des systèmes et réseaux ; applications web et encore bien d'autres. Avec un bon niveau tu pourrais aussi intégrer une école d’ingénieur."
 
