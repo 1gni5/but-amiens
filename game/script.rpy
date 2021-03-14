@@ -11,6 +11,7 @@ label start:
     "IUT d'Amiens, Journée portes ouvertes"
 
     scene bg hall
+    with fade
 
     show ai smile
     ai "Hello world !"
@@ -38,10 +39,11 @@ label start:
     show ai normal
     ai "Le BUT Informatique propose une formation complète. Il regroupe autant les matières informatiques que des matières générales comme la communication, les mathématiques ou l'anglais !"
 
-    "Bien, continuons !"
+    ai "Bien, commençons !"
 
     # Présentation amphi-théâtre
     scene bg amphi
+    with fade
     show ai normal at left
 
     ai "Voici l'amphithéâtre ! En temps normal c'est ici que les étudiants suivent les cours magistraux, mais comme tu peux le voir en ce moment c'est un peu vide..."
@@ -49,7 +51,7 @@ label start:
     player "..."
 
     show ai surprised at left
-    ai "Ah oui mince je suis bête, tu ne sais peut-être pas ce que sont les cours magistraux."
+    ai "Mince, suis-je bête, tu ne sais peut-être pas ce que sont les cours magistraux."
 
     show ai normal at left
     ai "Les cours magistraux ou CM sont des cours purement théoriques. Le professeur fait cours et les étudiants suivent, prennent des notes... ça dépend de chacun."
@@ -61,6 +63,7 @@ label start:
 
     # Présentation des TDs et TPs
     scene bg tds
+    with fade
 
     show ai normal at right
     ai "Voilà les salles de TD, c'est ici que tu travailleras lors des \"Travaux dirigés\", ce que tu auras appris en CM sera à mettre en pratique ici."
@@ -68,6 +71,7 @@ label start:
     ai "Enfin, tu pourras mettre en pratique les matières générales pour les matières informatiques que tu pratiqueras plutôt à l'étage dans les salles de TPs. Mais plutôt qu'une longue explication, je vais te montrer !"
 
     scene bg tps
+    with fade
     show ai normal
 
     ai "Nous voilà à l'étage. Ici tu trouveras principalement les salles de TPs dont je t'ai parlé. Comme tu peux le voir chaque salle est équippé de PCs pour que chaque étudiant puisse pratiquer."
@@ -84,7 +88,7 @@ label start:
         ai "Faut-il savoir coder pour intégrer un BUT Informatique ?"
 
         "Il faut déjà de solides bases dans plusieurs langages":
-            show ai giggle
+            show ai surprised
             ai "Oula voilà de gros pré-requis !"
         "Au moins un petit peu, les bases.":
             show ai giggle
@@ -124,9 +128,10 @@ label start:
     ai "Durant son BUT, un étudiant passe 26 semaines en entreprise. C'est un des avantages du BUT, cela permet aux étudiants de ressortir avec un diplôme et de l'expérience professionelle."
 
     show ai giggle
-    ai "Je suis désolé, je parle je parle et j'oublie de te faire visiter l'IUT. Allons-y !"
+    ai "Désolée, je parle je parle et j'oublie de te faire visiter l'IUT. Allons-y !"
 
     scene bg examen
+    with fade
     show ai normal at left
     ai "Voici la salle d'examen, elle peut paraître intimidante, mais c'est le meilleur moyen d'examiner sur papier une centaine d'élèves avec un minimum de risque de triche."
 
@@ -145,12 +150,14 @@ label start:
     ai "Bien retournons au rez-de-chausée maintenant !"
 
     scene bg bde
+    with fade
     show ai normal at right
 
     ai "Cette pièce est censée être celle du Bureau des Etudiants..."
     ai "Mais avec le COVID, elle est restée fermée depuis un moment."
     ai "C'était une salle de repos entre étudiants pendant les heures de creux."
     ai "L'association des étudiants est gérée par certains étudiants eux-mêmes! Et oui!"
+    show ai giggle
     ai "Devenir adhérent permet d'obetenir des réductions sur des articles, comme le snacking ou les vetêments brodés au sigle du BDE. \"Codito ergo sum!\""
     player "..."
 
@@ -158,9 +165,10 @@ label start:
     ai "Bon, continuons notre visite. Allons dehors, à côté du nouvel amphithéâtre."
 
     scene bg bibliotheque
+    with fade
     show ai normal at right
 
-    ai "Nous voici à la bibliothèque de l'IUT. Si tu es au lycée c'est un peu notre CDI à nous, tu peux emprunter toute sorte de livres, venir travailler sur table ou sur ordinateur. C'est un de mes endroits préféré !"
+    ai "Nous voici à la bibliothèque de l'IUT. Si tu es au lycée c'est un peu notre CDI à nous. Tu peux emprunter toute sorte de livres, venir travailler sur table ou sur ordinateur. C'est un de mes endroits préféré !"
     ai "Tiens, tant que je te parle de lycée, à ton avis, quel bac faut-il pour entrer en BUT Informatique ?"
 
     # Quel BAC pour entrer en BUT ?
@@ -177,11 +185,12 @@ label start:
             show ai smile at right
             ai "Exact !"
 
-    ai "Il est possible d’intégrer un B.U.T après l’obtention du bac, qu’il soit technologique ou « hybride ». Mais attention il faut avoir correctement rempli ses choix sur Parcoursup !"
+    ai "Il est possible d’intégrer un B.U.T après l’obtention du bac, qu’il soit technologique ou « hybride ». Mais attention, il faut avoir correctement rempli ses choix sur Parcoursup !"
     ai "Super, pour la suite de la visite nous allons revenir dans le bâtiment principal."
 
     # Qui enseigne en BUT ?
-    scene bg tps
+    scene bg tps_dehors
+    with fade
     show ai normal
 
     ai "À l'étage en plus des salles de TPs tu trouveras la salle des profs, le secrétariat ainsi que le bureau du directeur du département informatique: M. Clérentin. (il adore UNIX)"
@@ -232,16 +241,16 @@ label start:
     show ai normal
 
     ai "En effet, tu auras le choix entre 4 parcours différents en fonction de tes préférences. Mais pas de panique, tu auras le temps de choisir!"
-    ai "Le premier est la réalisation d'applications. Il existe un autre sur l'administration et la sécurisation de bases de données, un autre sur le déploiement d'applications communicantes et un autre sur le management de système d'informations."
+    ai "Le premier est la réalisation d'applications. Il existe un autre sur l'administration et la sécurisation de bases de données, un autre sur le déploiement d'applications communicantes et un dernier sur le management de système d'informations."
 
     show ai smile
-    ai "Ca peut paraître compliqué à comprendre pour l'instant, mais ce n'est pas grave tu as le temps !"
+    ai "Ca peut paraître compliqué à comprendre pour l'instant, mais ce n'est pas grave, tu as le temps !"
 
 
     #Orientations possibles
 
     show ai normal
-    ai "Le BUT est un dîplome d'enseignement supérieur qui te permettras de trouver du travail par la suite. Tu pourras postuler à des offres d'emploi de niveau BAC+3 dans n'importe quelle entreprise avec un service informatique et un niveau correct"
+    ai "Le BUT est un dîplome d'enseignement supérieur qui te permettras de trouver du travail par la suite. Tu pourras postuler à des offres d'emploi de niveau BAC+3 dans n'importe quelle entreprise avec un service informatique et un niveau correct."
     ai "Cela te sera assez facile, car comme aime nous dire notre directeur M.Clerentin \"Nous sommes en pénurie d'informaticiens.\" !"
 
     menu:
@@ -257,10 +266,13 @@ label start:
     ai "Conception et développement de logiciels ; administration et sécurité des systèmes et réseaux ; applications web et encore bien d'autres. Avec un bon niveau tu pourrais aussi intégrer une école d’ingénieur."
 
     # Fin du jeu
-    scene bg hall
+    scene bg endcard
+    with fade
     show ai normal
     ai "Et bien nous voilà à la fin de notre visite, j’espère que tu auras appris beaucoup sur le fonctionnement de l’IUT et surtout du BUT. J’espère         aussi que tu souhaites maintenant faire partie de l’aventure et que tu nous rejoindras l’année prochaine à l’IUT d’Amiens."
-    ai "Enfin, si tu te poses encore des questions, je t’invite à contacter l’IUT soit par téléphone au +33(0)3.22.53.40.40 ou tout simplement en te             rendant sur site à l'Avenue des Facultés, Le Bailly, 80025 Amiens ." 
+    ai "Enfin, si tu te poses encore des questions, je t’invite à contacter l’IUT soit par téléphone au +33(0)3.22.53.40.40 ou tout simplement en te             rendant sur site à l'Avenue des Facultés, Le Bailly, 80025 Amiens ."
     ai "Enfin je te souhaites une bonne continuation et de la réussite dans tes projets futurs."
+    show ai giggle
+    ai "Au revoir, et à bientôt j'espère !"
 
     return
