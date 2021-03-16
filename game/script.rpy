@@ -262,16 +262,17 @@ label start:
             ai "Et bien si!"
 
     show ai normal
-    ai "Après ton BUT, si tu souhaites continuer tes études, tu pourras t'orienter dans une licence parcours MIAGE, ou encore dans une licence professionnelle option métiers de l'informatique où tu choisireras une spécialité :"
-    ai "Conception et développement de logiciels ; administration et sécurité des systèmes et réseaux ; applications web et encore bien d'autres. Avec un bon niveau tu pourrais aussi intégrer une école d’ingénieur."
+    ai "Après ton BUT, si tu souhaites continuer tes études, tu pourras t'orienter dans un Master avec un parcours spécialisé comme MIAGE (Méthodes informatiques appliquées à la gestion des entreprises), ICE (Informatique collaborative en entreprise)..."
+    ai "...ou encore Développement logiciel. Aussi si le BUT ne te plait plus au cours de ton parcours, il est possible en 2ème année de faire une passerelle vers une Licence professionelle ou une Licence informatique avec une spécialité similaire à celle des masters cités précedemment."
+    ai "Avec un bon niveau tu pourrais aussi intégrer une école d’ingénieur."
 
     # Fin du jeu
     scene bg endcard
     with fade
     show ai normal
-    ai "Et bien nous voilà à la fin de notre visite, j’espère que tu auras appris beaucoup sur le fonctionnement de l’IUT et surtout du BUT. J’espère         aussi que tu souhaites maintenant faire partie de l’aventure et que tu nous rejoindras l’année prochaine à l’IUT d’Amiens."
-    ai "Enfin, si tu te poses encore des questions, je t’invite à contacter l’IUT soit par téléphone au +33(0)3.22.53.40.40 ou tout simplement en te             rendant sur site à l'Avenue des Facultés, Le Bailly, 80025 Amiens ."
-    ai "Enfin je te souhaites une bonne continuation et de la réussite dans tes projets futurs."
+    ai "Et bien nous voilà à la fin de notre visite, j’espère que tu auras appris beaucoup sur le fonctionnement de l’IUT et surtout du BUT. J’espère aussi que tu souhaites maintenant faire partie de l’aventure et que tu nous rejoindras l’année prochaine à l’IUT d’Amiens."
+    ai "Enfin, si tu te poses encore des questions, je t’invite à contacter l’IUT soit par téléphone au +33(0)3.22.53.40.40 ou tout simplement en te rendant sur site à l'Avenue des Facultés, Le Bailly, 80025 Amiens ."
+    ai "Enfin je te souhaite une bonne continuation et de la réussite dans tes projets futurs."
     show ai giggle
     ai "Au revoir, et à bientôt j'espère !"
 
