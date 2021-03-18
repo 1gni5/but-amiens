@@ -255,12 +255,12 @@ screen quick_menu():
 
             textbutton _("Retour") action Rollback()
             textbutton _("Historique") action ShowMenu('history')
-            textbutton _("Avance rapide") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Sauvegarde") action ShowMenu('save')
-            textbutton _("Sauvegarde R.") action QuickSave()
-            textbutton _("Chargement R.") action QuickLoad()
-            textbutton _("Préf.") action ShowMenu('preferences')
+            #textbutton _("Avance rapide") action Skip() alternate Skip(fast=True, confirm=True)
+            #textbutton _("Auto") action Preference("auto-forward", "toggle")
+            #textbutton _("Sauvegarde") action ShowMenu('save')
+            #textbutton _("Sauvegarde R.") action QuickSave()
+            #textbutton _("Chargement R.") action QuickLoad()
+            #textbutton _("Préf.") action ShowMenu('preferences')
 
 
 ## Ce code garantit que le menu d’accès rapide sera affiché dans le jeu, tant
