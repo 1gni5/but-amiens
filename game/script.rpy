@@ -14,6 +14,8 @@ label start:
     with fade
 
     show ai smile
+
+    play music "audio/danganronpa-ost-1-04-beautiful-days.mp3"
     ai "Hello world !"
 
     show ai normal
