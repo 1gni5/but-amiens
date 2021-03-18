@@ -15,7 +15,7 @@ label start:
 
     show ai smile
 
-    play music "audio/danganronpa-ost-1-04-beautiful-days.mp3"
+    play music "audio/danganronpa-ost-1-04-beautiful-days.mp3" volume 0.3
     ai "Hello world !"
 
     show ai normal
