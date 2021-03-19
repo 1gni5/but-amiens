@@ -19,7 +19,7 @@ label start:
     ai "Hello world !"
 
     show ai normal
-    ai "Bienvenue a la eJPO de l'IUT d'Amiens. Je me présente, je suis @Inf0 et je serai ta guide pour cette visite."
+    ai "Bienvenue à la eJPO de l'IUT d'Amiens. Je me présente, je suis @Inf0 et je serai ta guide pour cette visite."
 
     show ai giggle
     ai "D'ailleurs tant que j'y pense ! As-tu une idée de ce qu'on fait en BUT Informatique ?"
@@ -70,13 +70,13 @@ label start:
     show ai normal at right
     ai "Voilà les salles de TD, c'est ici que tu travailleras lors des \"Travaux dirigés\", ce que tu auras appris en CM sera à mettre en pratique ici."
 
-    ai "Enfin, tu pourras mettre en pratique les matières générales pour les matières informatiques que tu pratiqueras plutôt à l'étage dans les salles de TPs. Mais plutôt qu'une longue explication, je vais te montrer !"
+    ai "Ici, tu pourras mettre en pratique les matières générales qui te serviront pour les matières informatiques que tu pratiqueras plutôt à l'étage, dans les salles de TPs. Mais plutôt qu'une longue explication, je vais te montrer !"
 
     scene bg tps
     with fade
     show ai normal
 
-    ai "Nous voilà à l'étage. Ici tu trouveras principalement les salles de TPs dont je t'ai parlé. Comme tu peux le voir chaque salle est équippé de PCs pour que chaque étudiant puisse pratiquer."
+    ai "Nous voilà à l'étage. Ici tu trouveras principalement les salles de TPs dont je t'ai parlé. Comme tu peux le voir chaque salle est équipée de PCs pour que chaque étudiant puisse pratiquer."
 
     show ai giggle
     ai "C'est une grande force du BUT : plutôt que de long cours de théorie, ici on pratique ! Mais attention, ça ne veux pas dire qu'il faut déjà savoir coder pour intégrer un BUT Informatique."
@@ -84,14 +84,14 @@ label start:
     # Faut-il savoir coder pour entrer en BUT Informatique ?
 
     show ai normal
-    ai "D'ailleurs à quel point faut-il savoir coder pour intégrer le BUT, à ton avis ?"
+    ai "D'ailleurs, à quel point faut-il savoir coder pour intégrer le BUT, à ton avis ?"
 
     menu:
         ai "Faut-il savoir coder pour intégrer un BUT Informatique ?"
 
         "Il faut déjà de solides bases dans plusieurs langages":
             show ai surprised
-            ai "Oula voilà de gros pré-requis !"
+            ai "Oula, voilà de gros pré-requis !"
         "Au moins un petit peu, les bases.":
             show ai giggle
             ai "Même pas !"
@@ -111,7 +111,7 @@ label start:
     player "..."
 
     # Nombre d'heure en entreprise
-    ai "C'est une bonne question, à ton avis combien de temps un étudiants de BUT passe en entreprise ?"
+    ai "C'est une bonne question, à ton avis combien de temps un étudiant de BUT passe en entreprise ?"
 
     menu:
         ai "Combien de temps passe un étudiant de BUT en entreprise ?"
@@ -135,7 +135,7 @@ label start:
     scene bg examen
     with fade
     show ai normal at left
-    ai "Voici la salle d'examen, elle peut paraître intimidante, mais c'est le meilleur moyen d'examiner sur papier une centaine d'élèves avec un minimum de risque de triche."
+    ai "Voici la salle d'examen; elle peut paraître intimidante, mais c'est le meilleur moyen d'examiner sur papier une centaine d'élèves avec un minimum de risque de triche."
 
     menu:
         ai "D'ailleurs, penses-tu que tous tes contrôles seront sur papier?"
@@ -149,6 +149,7 @@ label start:
 
     show ai smile
     ai "Tu seras surtout évalué sur des projets. Après tout, cela vaut mieux d'être évalué sur ton travail plutôt que sur des examens où tu révises pour oublier juste après!"
+    player "..."
     ai "Bien retournons au rez-de-chausée maintenant !"
 
     scene bg bde
@@ -195,13 +196,13 @@ label start:
     with fade
     show ai normal
 
-    ai "À l'étage en plus des salles de TPs tu trouveras la salle des profs, le secrétariat ainsi que le bureau du directeur du département informatique: M. Clérentin. (il adore UNIX)"
+    ai "À l'étage, en plus des salles de TPs, tu trouveras la salle des profs, le secrétariat ainsi que le bureau du directeur du département informatique: M. Clérentin. (il adore UNIX)"
     # ai "C'est d'ailleurs beaucoup mieux depuis qu'il est revenu, les gamins qui se font la gue-guerre parce qu'ils ont 0 autorité ça va bien 2 secondes !"
 
     player "..."
 
     ai "Les autres portes avec des noms ?"
-    ai "Ce sont les bureaux des professeurs de l'IUT. Si jamais tu dois parler à l'un d'entre eux c'est une bonne idée d'aller toquer à son bureau."
+    ai "Ce sont les bureaux des professeurs de l'IUT. Si jamais tu dois parler à l'un d'entre eux c'est une bonne idée d'aller toquer à leur porte."
     ai "En parlant de professeurs... Qui enseigne à l'IUT ?"
 
     menu:
@@ -253,7 +254,7 @@ label start:
 
     show ai normal
     ai "Le BUT est un dîplome d'enseignement supérieur qui te permettras de trouver du travail par la suite. Tu pourras postuler à des offres d'emploi de niveau BAC+3 dans n'importe quelle entreprise avec un service informatique et un niveau correct."
-    ai "Cela te sera assez facile, car comme aime nous dire notre directeur M.Clerentin \"Nous sommes en pénurie d'informaticiens.\" !"
+    ai "Cela te sera assez facile, car comme aime nous dire notre directeur M.Clérentin : \"Nous sommes en pénurie d'informaticiens.\" !"
 
     menu:
         ai "Mais à ton avis, est-il possible de continuer de te former plus spécifiquement après un BUT informatique ?"
@@ -266,13 +267,13 @@ label start:
     show ai normal
     ai "Après ton BUT, si tu souhaites continuer tes études, tu pourras t'orienter dans un Master avec un parcours spécialisé comme MIAGE (Méthodes informatiques appliquées à la gestion des entreprises), ICE (Informatique collaborative en entreprise)..."
     ai "...ou encore Développement logiciel. Aussi si le BUT ne te plait plus au cours de ton parcours, il est possible en 2ème année de faire une passerelle vers une Licence professionelle ou une Licence informatique avec une spécialité similaire à celle des masters cités précedemment."
-    ai "Avec un bon niveau tu pourrais aussi intégrer une école d’ingénieur."
+    ai "Avec un bon niveau, tu pourrais aussi intégrer une école d’ingénieur."
 
     # Fin du jeu
     scene bg endcard
     with fade
     show ai normal
-    ai "Et bien nous voilà à la fin de notre visite, j’espère que tu auras appris beaucoup sur le fonctionnement de l’IUT et surtout du BUT. J’espère aussi que tu souhaites maintenant faire partie de l’aventure et que tu nous rejoindras l’année prochaine à l’IUT d’Amiens."
+    ai "Et bien nous voilà à la fin de notre visite. J’espère que tu auras appris beaucoup sur le fonctionnement de l’IUT et surtout du BUT. J’espère aussi que tu souhaites maintenant faire partie de l’aventure et que tu nous rejoindras l’année prochaine à l’IUT d’Amiens."
     ai "Enfin, si tu te poses encore des questions, je t’invite à contacter l’IUT soit par téléphone au +33(0)3.22.53.40.40 ou tout simplement en te rendant sur site à l'Avenue des Facultés, Le Bailly, 80025 Amiens ."
     ai "Enfin je te souhaite une bonne continuation et de la réussite dans tes projets futurs."
     show ai giggle

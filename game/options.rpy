@@ -15,7 +15,7 @@
 ##
 ## La chaîne de caractère contenu dans _() est éligible à la traduction.
 
-define config.name = _("BUT Amiens")
+define config.name = _("Découvrons le BUT Info !")
 
 
 ## Détermine si le titre renseigné plus haut est affiché sur l'écran du menu
@@ -32,7 +32,7 @@ define config.version = "1.0"
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""
+define gui.about = _p("""Projet réalisé par Jules DUCANGE, Victor FLORENT et Bastien CHEMIN
 """)
 
 
@@ -40,7 +40,7 @@ define gui.about = _p("""
 ## l’exécutable. Il ne doit contenir que des caractères ASCII et ne doit pas
 ## contenir d’espace, de virgules ou de points-virgules.
 
-define build.name = "BUTAmiens"
+define build.name = "DucangeBUTAmiens"
 
 
 ## Sons et musiques ############################################################
